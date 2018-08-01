@@ -1,8 +1,6 @@
 import React from 'react';
 import Placeholder from './Placeholder';
 
-// snapshot tests
-// refer to __snapshots__ folder for relevant snapshots
 import renderer from 'react-test-renderer';
 import { retOne as funcOne } from './Placeholder';
 import { retVar as funcVar } from './Placeholder';
